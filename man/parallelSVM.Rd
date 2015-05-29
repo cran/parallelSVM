@@ -7,10 +7,10 @@
 \encoding{UTF-8}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
-Parallel voting version of Support Vector Machine
+Parallel-voting version of Support-Vector-Machine
 }
 \description{
-By sampling your data, running the Support Vector Machine algorithm on these samples in parallel on your own machine and letting your models vote on a prediction, we return much faster predictions than the regular Support Vector Machine and possibly even more accurate predictions.
+By sampling your data, running the Support-Vector-Machine algorithm on these samples in parallel on your own machine and letting your models vote on a prediction, we return much faster predictions than the regular Support-Vector-Machine and possibly even more accurate predictions.
 }
 \usage{
 ## S3 method for class 'formula'
@@ -51,7 +51,7 @@ Size of your data or of x you will take in each sample.
 A logical vector indicating the variables to be scaled. If scale is of length 1, the value is recycled as many times as needed. Per default, data are scaled internally (both x and y variables) to zero mean and unit variance. The center and scale values are returned and used for later predictions.
 }
   \item{type}{
-Support Vector Machine can be used as a classification machine, as a regression machine, or for novelty detection. Depending of whether y is a factor or not, the default setting for type is C-classification or eps-regression, respectively, but may be overwritten by setting an explicit value.
+Support-Vector-Machine can be used as a classification machine, as a regression machine, or for novelty detection. Depending of whether y is a factor or not, the default setting for type is C-classification or eps-regression, respectively, but may be overwritten by setting an explicit value.
 Valid options are:
 	- C-classification
 	- nu-classification
