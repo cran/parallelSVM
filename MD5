@@ -1,0 +1,16 @@
+930121a91684d9d20c52586851c22317 *DESCRIPTION
+67f44b500d7c0d3cb38d93e2327ecf2a *NAMESPACE
+83eda8a82d2ce0a8340f2b709db7205f *R/fitted.parallelSVM.R
+d3dcd4b794b45027bee283fbf8c33410 *R/parallelSVM.R
+75056e2f1328f37f34409a902188eeaa *R/predict.parallelSVM.R
+a9b0cdfa0a5bc3b4f06bb6af5cc448fa *R/print.parallelSVM.R
+d21fe59ea69fa7d9275d71c714206f02 *R/registerCores.R
+f50bdd4693aeba3dc77f1674b1992076 *R/summary.parallelSVM.R
+73654eeda318e7b5cb592bff23a712aa *R/trainSample.R
+5ca57b47f8151621c5f84f8aaabbab3b *man/iris.Rd
+dfe1366432d76946807b69a7a74ff911 *man/parallelSVM-package.Rd
+52957220efbe43a411a6caf6dac59eb7 *man/parallelSVM.Rd
+cba8adc42d808803f33e86c58ecd79a8 *man/registerCores.Rd
+11b96ca0faf8891fe9abd36a99ae13bb *man/testData.Rd
+4f008620bb11ee03d87c1fc970ab9537 *man/trainData.Rd
+3c5aed0e50d17bbedd083b2d5697a110 *man/trainSample.Rd
