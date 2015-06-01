@@ -1,10 +1,10 @@
-dda4fb6b5d3c287c2e103099e2f8fd3b *DESCRIPTION
-67f44b500d7c0d3cb38d93e2327ecf2a *NAMESPACE
+d2480142a6b257b7c3e34085e61fec73 *DESCRIPTION
+4a9cb168add8e5d80134b726dee6d0f7 *NAMESPACE
 83eda8a82d2ce0a8340f2b709db7205f *R/fitted.parallelSVM.R
-d3dcd4b794b45027bee283fbf8c33410 *R/parallelSVM.R
-75056e2f1328f37f34409a902188eeaa *R/predict.parallelSVM.R
+a961957a071e7967d0c5592800e14404 *R/parallelSVM.R
+8a77903d63ead62eab14271bb7322f61 *R/predict.parallelSVM.R
 a9b0cdfa0a5bc3b4f06bb6af5cc448fa *R/print.parallelSVM.R
-d21fe59ea69fa7d9275d71c714206f02 *R/registerCores.R
+69e08cbae04d93fd45d1915ed98b4697 *R/registerCores.R
 f50bdd4693aeba3dc77f1674b1992076 *R/summary.parallelSVM.R
 73654eeda318e7b5cb592bff23a712aa *R/trainSample.R
 de3bc7ebdd3eae00664257b984fec772 *data/iris.rda

@@ -47,6 +47,8 @@ parallelSVM.default <- function(x, y = NULL, numberCores = detectCores(), sampli
     eval(function_call[[i]], parent.frame())
   }
   
+  closeAllConnections()
+  
   # Set a correct class
   class(modelDataSvm) <- "parallelSVM"
   attr(modelDataSvm,"call") <- call
@@ -86,10 +88,10 @@ parallelSVM.formula <- function(formula, data = NULL, numberCores = detectCores(
   }
   
   # parallel SVM creation
-  system.time(modelDataSvm <- foreach(i = 1:numberCores) %dopar% {
+  modelDataSvm <- foreach(i = 1:numberCores) %dopar% {
     # Do the call
     eval(function_call[[i]], parent.frame())
-  })
+  }
   
   # Set a correct class
   class(modelDataSvm) <- "parallelSVM"

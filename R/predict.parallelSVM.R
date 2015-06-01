@@ -1,5 +1,5 @@
 #' @importFrom parallel detectCores
-#' @importFrom foreach foreach %dopar%
+#' @importFrom foreach foreach %do%
 #' @export
 predict.parallelSVM <- function(object, newdata, compute = TRUE, probability = FALSE, ...){
   # Predict for each model stored in object
@@ -28,7 +28,7 @@ predict.parallelSVM <- function(object, newdata, compute = TRUE, probability = F
   }
   
   # parallel prediction
-  predictDataSvm <- foreach(i = 1:length(object)) %dopar% {
+  predictDataSvm <- foreach(i = 1:length(object))  %do% {
     # Do the call
     eval(function_call[[i]], parent.frame())
   }
