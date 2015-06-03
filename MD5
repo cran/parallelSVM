@@ -1,7 +1,7 @@
-d2480142a6b257b7c3e34085e61fec73 *DESCRIPTION
+4ec1a9ecde9733a37f84f27033c2a23b *DESCRIPTION
 4a9cb168add8e5d80134b726dee6d0f7 *NAMESPACE
 83eda8a82d2ce0a8340f2b709db7205f *R/fitted.parallelSVM.R
-a961957a071e7967d0c5592800e14404 *R/parallelSVM.R
+2a29da2d6c294918413b8dd2c6a916ec *R/parallelSVM.R
 8a77903d63ead62eab14271bb7322f61 *R/predict.parallelSVM.R
 a9b0cdfa0a5bc3b4f06bb6af5cc448fa *R/print.parallelSVM.R
 69e08cbae04d93fd45d1915ed98b4697 *R/registerCores.R

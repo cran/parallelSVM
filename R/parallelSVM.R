@@ -80,6 +80,9 @@ parallelSVM.formula <- function(formula, data = NULL, numberCores = detectCores(
   fcall$numberCores  <- NULL
   fcall$samplingSize <- NULL
   
+  # Convert the formula to text
+  fcall$formula <- eval(fcall$formula)
+  
   # Create copies with the correct data
   function_call <- list()
   for (i in 1:numberCores){
