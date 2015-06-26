@@ -1,4 +1,4 @@
-4ec1a9ecde9733a37f84f27033c2a23b *DESCRIPTION
+bb2ea3f6e8775769e3b4b14a9b04e4ca *DESCRIPTION
 4a9cb168add8e5d80134b726dee6d0f7 *NAMESPACE
 83eda8a82d2ce0a8340f2b709db7205f *R/fitted.parallelSVM.R
 2a29da2d6c294918413b8dd2c6a916ec *R/parallelSVM.R
@@ -10,7 +10,7 @@ f50bdd4693aeba3dc77f1674b1992076 *R/summary.parallelSVM.R
 de3bc7ebdd3eae00664257b984fec772 *data/iris.rda
 f4fcbd773a803321bdbc4608a25111f9 *data/magicData.rda
 5ca57b47f8151621c5f84f8aaabbab3b *man/iris.Rd
-d3c6235214de336213e1cbcd04a000ec *man/parallelSVM-package.Rd
+2c8d8d2c33c8aecd79b908c1c3d4b81c *man/parallelSVM-package.Rd
 4fb9c8f139d66ed4551a0a4ccbc9cbf4 *man/parallelSVM.Rd
 cba8adc42d808803f33e86c58ecd79a8 *man/registerCores.Rd
 11b96ca0faf8891fe9abd36a99ae13bb *man/testData.Rd

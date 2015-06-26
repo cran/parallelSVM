@@ -1,4 +1,5 @@
 \name{parallelSVM-package}
+\alias{parallelSVM-package}
 \docType{package}
 \title{
 Parallel-voting version of Support-Vector-Machine
